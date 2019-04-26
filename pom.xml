@@ -33,7 +33,7 @@
   </dependencies>
   <properties>
 <property> 
-  <name>mavenVersion</name>   
+  <name>mavenversion</name>   
 <value>2.0.3</value>    
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </property>
