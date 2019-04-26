@@ -25,19 +25,19 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <properties>
-<property> 
-<name>mavenVersion</name>  
-<value>2.0.3</value>
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </property>
-</properties>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-install-plugin</artifactId>
   <version>3.0.0-M1</version>
   <type>maven-plugin</type>
 </dependency>
   </dependencies>
+  <properties>
+<property> 
+  <name>mavenVersion</name>   
+<value>2.0.3</value>    
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</property>
+</properties>
   <build>
     <plugins>
       <plugin>
