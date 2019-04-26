@@ -16,7 +16,14 @@
             <id>maven.jenkins-ci.org</id>
             <url>https://repo.jenkins-ci.org/snapshots/</url>
         </snapshotRepository>
-     </distributionManagement>
+     </distributionManagement> 
+  <properties>
+  <property> 
+  <name>mavenversion</name>   
+<value>2.0.3</value>    
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</property>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -31,14 +38,7 @@
   <type>maven-plugin</type>
 </dependency>
   </dependencies>
-  <properties>
-<property> 
-  <name>mavenversion</name>   
-<value>2.0.3</value>    
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-</property>
-</properties>
-  <build>
+   <build>
     <plugins>
       <plugin>
         <!-- Build an executable JAR -->
