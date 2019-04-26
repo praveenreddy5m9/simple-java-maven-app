@@ -19,7 +19,7 @@
      </distributionManagement> 
   <properties>
   <property> 
-  <name>mavenversion</name>   
+<name>maven version</name> 
 <value>2.0.3</value>    
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </property>
