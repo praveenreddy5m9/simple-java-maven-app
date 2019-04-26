@@ -27,9 +27,15 @@
         </snapshotRepository>
      </distributionManagement>
   <properties>
+    <property>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </property>
+    <property>
+          <name>mavenVersion</name>
+          <value>2.0.3</value>
+        </property>
   </properties>
   <dependencies>
     <dependency>
