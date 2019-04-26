@@ -17,13 +17,6 @@
             <url>https://repo.jenkins-ci.org/snapshots/</url>
         </snapshotRepository>
      </distributionManagement> 
-  <properties>
-  <property> 
-<name>maven version</name> 
-<value>2.0.3</value>    
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-</property>
-</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
