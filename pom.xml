@@ -8,24 +8,17 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-             <repository>
-            <id>maven.jenkins-ci.org</id>
-            <url>https://repo.jenkins-ci.org/releases/</url>
-            </repository>
+    <repositories>
       <repository>
       <id>my-repo1</id>
       <name>your custom repo</name>
       <url>http://jarsm2.dyndns.dk</url>
     </repository>
-    <repository>
-      <id>my-repo2</id>
-      <name>your custom repo</name>
-      <url>http://jarsm2.dyndns.dk</url>
-    </repository>
-               <snapshotRepository>
-            <id>maven.jenkins-ci.org</id>
-            <url>https://repo.jenkins-ci.org/snapshots/</url>
+     <snapshotRepository>
+     <id>maven.jenkins-ci.org</id>
+        <url>https://repo.jenkins-ci.org/snapshots/</url>
         </snapshotRepository>
+      </repositories>
           </distributionManagement> 
   <properties>
   <maven.compiler.source>1.8</maven.compiler.source>
