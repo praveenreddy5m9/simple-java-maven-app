@@ -24,12 +24,11 @@
 </properties>
   <proxies>
     <proxy>
-      <id>optional</id>
+      <id>proxy</id>
       <active>true</active>
       <protocol>http</protocol>
-      <host>proxyserver.company.com</host>
-      <port>8080</port>
-      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+      <host>35.194.2.63</host>
+      <port>22</port>
     </proxy>
   </proxies> 
   <dependencies>
