@@ -22,17 +22,6 @@
   <maven.compiler.source>1.8</maven.compiler.source>
   <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
-  <settings>
-  <proxies>
-    <proxy>
-      <id>proxy</id>
-      <active>true</active>
-      <protocol>http</protocol>
-      <host>35.194.2.63</host>
-      <port>22</port>
-    </proxy>
-  </proxies> 
-    </settings>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -47,6 +36,17 @@
   <type>maven-plugin</type>
 </dependency>
   </dependencies>
+  <settings>
+  <proxies>
+    <proxy>
+      <id>proxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>35.194.2.63</host>
+      <port>22</port>
+    </proxy>
+  </proxies> 
+    </settings>
    <build>
     <plugins>
       <plugin>
