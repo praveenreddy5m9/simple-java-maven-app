@@ -7,6 +7,17 @@
   <version>1.0-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
+  <settings>
+  <proxies>
+    <proxy>
+      <id>proxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>35.194.2.63</host>
+      <port>22</port>
+    </proxy>
+  </proxies> 
+    </settings>
   <distributionManagement>
           <repository>
       <id>my-repo1</id>
@@ -36,18 +47,7 @@
   <type>maven-plugin</type>
 </dependency>
   </dependencies>
-  <settings>
-  <proxies>
-    <proxy>
-      <id>proxy</id>
-      <active>true</active>
-      <protocol>http</protocol>
-      <host>35.194.2.63</host>
-      <port>22</port>
-    </proxy>
-  </proxies> 
-    </settings>
-   <build>
+     <build>
     <plugins>
       <plugin>
         <!-- Build an executable JAR -->
