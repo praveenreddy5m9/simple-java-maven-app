@@ -8,6 +8,7 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
        <distributionManagement>
+         <repositories>
           <repository>
             <releases>
         <enabled>false</enabled>
@@ -29,6 +30,7 @@
         <updatePolicy>never</updatePolicy>
         <checksumPolicy>fail</checksumPolicy>
       </snapshots>
+           <repositories>
        </distributionManagement> 
   <properties>
   <maven.compiler.source>1.8</maven.compiler.source>
