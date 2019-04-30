@@ -8,6 +8,7 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
        <distributionManagement>
+         <repositories>
         <repository>
       <id>my-repo1</id>
       <name>your custom repo</name>
@@ -17,6 +18,7 @@
      <id>maven.jenkins-ci.org</id>
         <url>https://repo.jenkins-ci.org/snapshots/</url>
         </snapshotRepository>
+           </repositories>
   </distributionManagement> 
   <properties>
   <maven.compiler.source>1.8</maven.compiler.source>
