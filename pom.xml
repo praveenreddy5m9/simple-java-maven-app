@@ -40,7 +40,7 @@
     <plugins>
       <plugin>
     <artifactId>maven-resources-plugin</artifactId>
-    <version>3.3.9</version>
+    <version>3.2.2</version>
     <executions>
         <execution>
             <id>Copy frontend production build to resources</id>
@@ -62,7 +62,7 @@
 </plugin>
        <plugin>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.9</version>
+        <version>3.2.2</version>
         <configuration>
           <filteringDeploymentDescriptors>false</filteringDeploymentDescriptors>
         </configuration>
